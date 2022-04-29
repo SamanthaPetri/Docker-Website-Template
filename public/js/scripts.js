@@ -44,7 +44,7 @@ const addCards = (items) => {
             '<div class="card-reveal">' +
             '<span class="card-title grey-text text-darken-4">' + item.title + '<i class="material-icons right">close</i></span>' +
             '<p class="card-text grey-text text-darken-4">' + item.description + '</p>' +
-            '<p><a href="' + item.vlink +'">Youtube Link</a></p>' +
+            '<p><a href="' + item.vlink + '">Youtube Link</a></p>' +
             '</div></div></div>';
         $("#card-section").append(itemToAppend)
     });
@@ -59,3 +59,9 @@ $(document).ready(function () {
     getProjects();
     $('.modal').modal();
 });
+
+// connect to the socket
+let socket = io();
+socket.on('number', (msg) => {
+    console.log('Random number: ' + msg);
+})
