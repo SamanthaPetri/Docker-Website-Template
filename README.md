@@ -1,5 +1,5 @@
-# sit725-2022-t1-prac6
-This is a basic Node Express application to host a web application. It demonstrates the creation of a simple express app and creates a few APIs to create changes to data. An API is used for testing.
+# sit725-2022-t1-prac7
+This is a basic Node Express application to host a web application. It demonstrates the creation of a simple express app and creates a few APIs to create changes to data. An API is used for testing and socketing is used for hosting.
 
 # Pre-requisite
 Node.js
