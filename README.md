@@ -1,5 +1,5 @@
-# sit725-2022-t1-prac7
-This is a basic Node Express application to host a web application. It demonstrates the creation of a simple express app and creates a few APIs to create changes to data. An API is used for testing and socketing is used for hosting.
+# sit725-2022-t1-prac8
+This is a web application. It demonstrates the usage of docker to host a website.
 
 # Pre-requisite
 Node.js
